@@ -1,4 +1,4 @@
-# Solutions for leetcode problems in Typescript
+# Solutions for Leetcode problems in Typescript
 
 There're many solutions in the **src/<problem_number>_<problem_name>** path
 
