@@ -1,3 +1,3 @@
-import { main, nodeA } from "./101_symmetric_tree/iteratively";
+import { main, tree2 } from "./226_invert_binary_tree/iteratively";
 
-main(nodeA);
+main(tree2);

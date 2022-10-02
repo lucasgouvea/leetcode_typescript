@@ -8,6 +8,6 @@ const nodeC = new TreeNode(4, null, nodeE);
 const nodeB = new TreeNode(4, nodeD, null);
 const nodeA = new TreeNode(3, nodeB, nodeC);
 
-export {
-  nodeA,
-}
+const tree1 = nodeA
+
+export { tree1 };

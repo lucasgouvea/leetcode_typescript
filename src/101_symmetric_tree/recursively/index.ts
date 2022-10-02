@@ -1,5 +1,5 @@
 import { TreeNode } from "../../TreeNode";
-import { nodeA } from "../tree";
+import { tree1 } from "../../trees/tree1";
 
 function main(root: TreeNode | null): boolean {
   if (root === null) {
@@ -31,6 +31,5 @@ function isSymmetric(lTree: TreeNode | null, rTree: TreeNode | null): boolean {
   );
 }
 
-main(nodeA);
 
-export { main, nodeA };
+export { main, tree1 };

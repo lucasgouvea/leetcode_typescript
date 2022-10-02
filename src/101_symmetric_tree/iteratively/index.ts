@@ -1,5 +1,5 @@
 import { TreeNode } from "../../TreeNode";
-import { nodeA } from "../tree";
+import { tree1 } from "../../trees/tree1";
 import { BFS } from "../../BFS";
 
 function main(root: TreeNode | null): boolean {
@@ -23,4 +23,4 @@ function main(root: TreeNode | null): boolean {
 
 }
 
-export { main, nodeA };
+export { main, tree1 };
