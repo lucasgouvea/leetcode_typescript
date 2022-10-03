@@ -1,3 +1,3 @@
-import { main, tree2 } from "./226_invert_binary_tree/iteratively";
+import { reverseString, string } from "./344_reverse_string";
 
-main(tree2);
+reverseString(string)
