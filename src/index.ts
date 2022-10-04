@@ -1,3 +1,3 @@
-import { maxDepth,tree2 } from "./104_maximum_depth_of_binary_tree";
+import { head, reverseList } from "./206_reverse_linked_list";
 
-maxDepth(tree2)
+reverseList(head);
