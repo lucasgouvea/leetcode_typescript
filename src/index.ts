@@ -1,3 +1,3 @@
-import { reverseString, string } from "./344_reverse_string";
+import { maxDepth,tree2 } from "./104_maximum_depth_of_binary_tree";
 
-reverseString(string)
+maxDepth(tree2)
