@@ -1,3 +1,3 @@
-import { head, reverseList } from "./206_reverse_linked_list";
+import { input, singleNumber } from "./136_single_number";
 
-reverseList(head);
+const num = singleNumber(input)
