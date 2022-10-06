@@ -1,3 +1,6 @@
-import { input, singleNumber } from "./136_single_number";
+import {
+  sortedArrayToBST,
+  array2,
+} from "./108_convert_sorted_array_to_binary_search_tree";
 
-const num = singleNumber(input)
+sortedArrayToBST(array2);
