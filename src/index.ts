@@ -1,6 +1,5 @@
 import {
-  sortedArrayToBST,
-  array2,
-} from "./108_convert_sorted_array_to_binary_search_tree";
+  generate
+} from "./118_pascals_triangle";
 
-sortedArrayToBST(array2);
+const matrix = generate(50);
