@@ -1,5 +1,3 @@
-import {
-  generate
-} from "./118_pascals_triangle";
+import { fizzBuzz } from "./412_fizz_buzz";
 
-const matrix = generate(50);
+
