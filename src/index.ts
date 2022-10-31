@@ -1,8 +1,4 @@
-import { hammingWeightBitwise } from "./191_number_of_1_bits";
+import { majorityElementHashMap } from "./169_majority_element";
 
 
-console.log(
-  hammingWeightBitwise(parseInt("00000000100000000000000010000000", 2))
-);
-
-
+console.log(majorityElementHashMap([3, 2, 3]));
