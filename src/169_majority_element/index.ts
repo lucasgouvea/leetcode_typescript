@@ -32,4 +32,26 @@ function majorityElementHashMap(nums: number[]): number {
   return -1;
 }
 
-export { majorityElementHashMap };
+
+//Boyer-Moore Voting Algorithm
+function majoritElementBoyerMorre(nums: number[]): number {
+  // Os(1), since we are using only 2 variables in this Algorithm
+  let candidate = nums[0];
+  let count = 1; // keep the track of the "points"
+
+  // Ot(n), where n is the length of the nums array
+  for (let i = 1; i < nums.length; i++) {
+    if (count === 0) {
+      candidate = nums[i];
+    }
+
+    if (candidate === nums[i]) {
+      count++;
+    } else {
+      count--;
+    }
+  }
+  return candidate;
+}
+
+export { majorityElementHashMap, majoritElementBoyerMorre };

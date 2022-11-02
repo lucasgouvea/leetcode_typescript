@@ -1,4 +1,4 @@
-import { majorityElementHashMap } from "./169_majority_element";
+import { majoritElementBoyerMorre } from "./169_majority_element";
 
 
-console.log(majorityElementHashMap([3, 2, 3]));
+console.log(majoritElementBoyerMorre([3, 2, 3]));
