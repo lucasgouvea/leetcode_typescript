@@ -1,3 +1,3 @@
-import { isValid } from "./20_valid_parentheses";
+import { calPoints } from "./682_baseball_game";
 
-console.log(isValid("()[]{}"));
+console.log(calPoints(["5","2","C","D","+"]));
