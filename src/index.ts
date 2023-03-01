@@ -1,4 +1,3 @@
-import { majoritElementBoyerMorre } from "./169_majority_element";
+import { isValid } from "./20_valid_parentheses";
 
-
-console.log(majoritElementBoyerMorre([3, 2, 3]));
+console.log(isValid("()[]{}"));
