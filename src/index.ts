@@ -1,3 +1,3 @@
-import { calPoints } from "./682_baseball_game";
+import { missingNumberSumItAll } from "./268_missing_number";
 
-console.log(calPoints(["5","2","C","D","+"]));
+console.log(missingNumberSumItAll([9,6,4,2,3,5,7,0,1]));
