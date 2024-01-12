@@ -1,4 +1,4 @@
-import { ListNode } from "../ListNode";
+import { ListNode } from "../../data-structures/list-node";
 
 const node5 = new ListNode(5, null);
 const node4 = new ListNode(4, node5);

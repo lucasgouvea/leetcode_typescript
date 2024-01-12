@@ -1,4 +1,4 @@
-import { TreeNode } from "../TreeNode";
+import { TreeNode } from "../../data-structures";
 
 type BFSOptions = {
   withNullables: boolean;

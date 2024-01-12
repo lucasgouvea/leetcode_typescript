@@ -1,4 +1,4 @@
-import { TreeNode } from "../TreeNode";
+import { TreeNode } from "../../data-structures/tree-node";
 
 const nodeG = new TreeNode(9, null, null);
 const nodeF = new TreeNode(6, null, null);

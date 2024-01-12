@@ -1,5 +1,5 @@
-import { ListNode } from "../ListNode";
-import { head } from "../linked-lists/linked-list-1";
+import { ListNode } from "../../data-structures/list-node";
+import { head } from "./inputs";
 
 // TC: O(n), n is the length of the list
 // SC: O(n), n is the length of the list

@@ -1,5 +1,5 @@
-import { TreeNode } from "../../TreeNode";
-import { tree1 } from "../../trees/tree1";
+import { TreeNode } from "../../../data-structures";
+import { tree1 } from "../inputs";
 
 function main(root: TreeNode | null): boolean {
   if (root === null) {
@@ -30,6 +30,5 @@ function isSymmetric(lTree: TreeNode | null, rTree: TreeNode | null): boolean {
     isSymmetric(lTree.left, rTree.right) && isSymmetric(lTree.right, rTree.left)
   );
 }
-
 
 export { main, tree1 };

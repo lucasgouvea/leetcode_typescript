@@ -1,6 +1,5 @@
-import { TreeNode } from "../TreeNode";
-import { array2 } from "../arrays";
-
+import { TreeNode } from "../../data-structures";
+import { array2 } from "./inputs";
 
 // TC: the function will be called by each element in the nums array -> O(n)
 // SC: since we are using only one constant to define the middle element -> O(1)
