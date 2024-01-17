@@ -1,6 +1,3 @@
-import {
-  isPalindrome,
-  headTrue2,
-} from "./solutions/234_palindrome_linked_list";
+import { hasCycle, head4 } from "./solutions/141_linked_list_cycle";
 
-console.log(isPalindrome(headTrue2));
+console.log(hasCycle(head4));
